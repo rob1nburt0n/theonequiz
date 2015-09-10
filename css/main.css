@@ -1,0 +1,29 @@
+/*<!-- // Write a selector that selects only the first sibling li elements-->*/
+
+section:first-of-type {
+  color: red;
+}
+
+li {
+  display: inline;
+}
+
+section:nth-child(2n+1) {
+  border: 1px solid hotpink;
+}
+
+li:nth-child(even) {
+  background-color: lime;
+}
+
+aside:first-child {
+  color: blue;
+}
+
+div:first-of-type {
+    float: right;
+}
+
+div:nth-of-type(3) {
+    text-align: center;
+}
