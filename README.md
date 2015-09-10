@@ -29,9 +29,18 @@ http-server
 1. Explain what hoisting is. Provide your answer below.
 
   **Student answer: **
+  declaring a variable at the top of the scope
+  
 1. What is a callback? Why do we use them in JavaScript? Provide your answer, and code a simple example below.
 
   **Student answer: **
+  passing one function to another function
+  help prevent loading errors
+  $("button").click(function(){
+    $("p").hide("slow", function(){
+        alert("The paragraph is now hidden");
+    });
+});
 
 ## Functions and operators
 
